@@ -5,11 +5,11 @@
 ## 1. 環境構築関連
 - Python環境
   - windows -> [/Python/init_windows.md](/Python/init_windows.md)
-  - mac -> /Python/init_mad.md
+  - mac -> [/Python/init_mac.md](/Python/init_mac.md)
 - LaTeX環境
-  - CloudLatex + VSCode -> /VSCode/latex.md
+  - CloudLatex + VSCode -> [/VSCode/latex.md](/VSCode/latex.md)
 - Markdown
-  - -> /VSCode/markdown.md
+  - -> [/VSCode/markdown.md](/VSCode/markdown.md)
 
 ## 2. CheatSheets
 - Karbiner extensions
