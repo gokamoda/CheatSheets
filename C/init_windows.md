@@ -1,17 +1,6 @@
 # windowsでC
 
 ## MinGWのインストール
-- https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download
-- 上記リンクからmingw-w64-install.exeをダウンロード
-- 実行
-- `Next`で開始
-- 64bit版の場合は，Architectureを`x86_64`に変更
-- それに伴ってExceptionがsehに勝手に変更される
-- `Next`で進んでインストール開始
-- `The file has been downloaded incorrectly!`と出たら，7zipバージョンを実行
-
-
-## MinGWのインストール
 - https://sourceforge.net/projects/mingw-w64/files/mingw-w64/
 - 上記リンクにアクセス
 - 64bit版の場合はMinGW-W64 GCCのx86_64-posix-sehを選択
