@@ -4,6 +4,7 @@
 - Pause
 - Ctrl2Cap
 - 7zip
+- Custom Context Menu
 
 ## テキストエディタ
 - VSCode
