@@ -10,6 +10,8 @@
   - CloudLatex + VSCode -> [/VSCode/latex.md](/VSCode/latex.md)
 - Markdown
   - -> [/VSCode/markdown.md](/VSCode/markdown.md)
+- C/C++
+  - windows -> [/C/init_windows.md](/C/init_windows.md)
 
 ## 2. CheatSheets
 - Karbiner extensions
