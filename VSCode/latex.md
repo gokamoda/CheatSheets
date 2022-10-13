@@ -14,7 +14,7 @@
 ## 2. 拡張機能をインストール＋初期設定
 1. Cloud LaTeX をインストール  
    ```SHELL
-   $ code --install-extension cloudlatex.cloudlatex
+   code --install-extension cloudlatex.cloudlatex
    ```
 2. CloudLaTeXにログイン
 3. マイページの右上のドロップダウンメニューからプラグイン連携を選択

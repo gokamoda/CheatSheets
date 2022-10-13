@@ -3,6 +3,7 @@
 ## 効率化
 - Pause
 - Ctrl2Cap
+- 7zip
 
 ## テキストエディタ
 - VSCode
