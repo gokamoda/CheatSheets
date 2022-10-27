@@ -16,6 +16,7 @@
    ```PowerShell
    Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
    ```
+   実行後，`not installed successfully`と表示されてしまう．もう一度同じコマンドを入れて，インストールが確認できればOK
 3. ユーザー環境変数の追加
    1. PYENV
       ```PowerShell
@@ -34,27 +35,27 @@
       [System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
       ```
 4. PCの再起動
-5. インストールの確認
+5. インストールの確認（コマンドプロンプトでOK）
      ```cmd
      pyenv --version
      ```
 
 ## 3. Pythonのインストール
-1. インストール可能なバージョンを確認  
-    ```zsh
+1. インストール可能なバージョンを確認（そこから一つ選択する）  
+    ```cmd
     pyenv install --list
     ```
-2. インストール（コマンドは例）  
-    ```zsh
-    pyenv install miniconda-4-4.7.12
+2. インストール（コマンドは例．<>は不要）  
+    ```cmd
+    pyenv install <選択したもの>
     ```
 3. インストール済み環境の確認  
-    ```zsh
+    ```cmd
     pyenv versions
     ```
 4. 環境の変更
-    ```zsh
-    pyenv activate <バージョン名/環境名>
+    ```cmd
+    pyenv local <バージョン名/環境名>
     ```
 
 ## 3. コードを書く
