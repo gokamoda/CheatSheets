@@ -1,4 +1,4 @@
-# windowsでC
+# windowsでC (MinGW編)
 
 - [1. MinGWのインストール](#1-mingwのインストール)
 - [2. PATHの設定](#2-pathの設定)
