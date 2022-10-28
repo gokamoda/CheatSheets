@@ -1,5 +1,11 @@
 # WSL+Ubuntu(2022.10.21)
 
+- [1. WSLを有効化](#1-wslを有効化)
+- [2. Ubuntsuのインストール](#2-ubuntsuのインストール)
+- [3. Ubuntuの導入](#3-ubuntuの導入)
+- [4. ターミナルの設定](#4-ターミナルの設定)
+- [5. VSCodeで使う](#5-vscodeで使う)
+
 ## 1. WSLを有効化
 1. PowerShellを管理者として実行し，次のコマンドを実行
    ```PowerShell

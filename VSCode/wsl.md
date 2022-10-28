@@ -1,5 +1,9 @@
 # VSCode + WSL + Ubuntu 22.04.01 LTS
 
+- [1. 前提](#1-前提)
+- [2. 拡張機能の追加](#2-拡張機能の追加)
+- [3. Ubuntuに接続](#3-ubuntuに接続)
+
 ## 1. 前提
 - [/WSL/init.md](/WSL/init.md)の内容を実施済み
 
