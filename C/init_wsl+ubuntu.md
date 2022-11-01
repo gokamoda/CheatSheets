@@ -15,9 +15,9 @@
    ```bash
    sudo apt upgrade
    ```
-3. コンパイラのインストール
+3. コンパイラ（&色々）のインストール
    ```bash
-   sudo apt install gcc
+   sudo apt install build-essential
    ```
 4. インストールの確認
    ```bash
