@@ -6,7 +6,7 @@
 - [5. 表などの自動フォーマット](#5-表などの自動フォーマット)
 
 ## 1. 前提
-- `/VSCode/init.md`にしたがってvscodeを設定済み
+- [/VSCode/init.md](VSCode/init.md)にしたがってvscodeを設定済み
 - TOC：Table of Contents = 目次
 
 ## 2. 拡張機能をインストール

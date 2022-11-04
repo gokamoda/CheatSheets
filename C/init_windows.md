@@ -26,7 +26,7 @@
 - 最後にgccのバージョンが表示されればインストール完了
 
 ## 4. コードを書く
-- [/VSCode/c.md](/VSCode/c.md)で設定を行い，VSCodeで書く/実行する
+- [/VSCode/c_windows.md](/VSCode/c_windows.md)で設定を行い，VSCodeで書く/実行する
 
 
 

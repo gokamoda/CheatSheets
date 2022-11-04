@@ -7,7 +7,7 @@
 
 
 ## 1. 前提
-- `/VSCode/init.md`にしたがってvscodeを設定済み
+- [/VSCode/init.md](/VSCode/init.md)にしたがってvscodeを設定済み
 
 ## 2. 拡張機能をインストール
 1. `code --install-extension ms-python.python`を実行

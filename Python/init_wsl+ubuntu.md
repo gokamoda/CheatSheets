@@ -1,6 +1,12 @@
 # WSL+UbuntuでPython
 
-## pyenvの導入
+- [1. 前提](#1-前提)
+- [2. pyenvの導入](#2-pyenvの導入)
+
+## 1. 前提
+- [/WSL/init.md](/WSL/init.md)でUbuntuを導入済み
+
+## 2. pyenvの導入
 1. Ubuntuのbashを開く
 2. pyenvのインストール
    ```bash

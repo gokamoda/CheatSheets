@@ -8,7 +8,7 @@
 - [6. キーマッピング](#6-キーマッピング)
 
 ## 1. 前提
-- `/VSCode/init.md`にしたがってvscodeを設定済み
+- [/VSCode/init.md](/VSCode/init.md)にしたがってvscodeを設定済み
 - ローカル環境は作成しない
 
 ## 2. 拡張機能をインストール＋初期設定
@@ -63,4 +63,4 @@
 - latexではバックスラッシュを多用する．
 - macではバックスラッシュが打ちにくい
 - Karabiner-Elementsを利用してキーマッピングをする
-- 詳細は`/Karabiner-Elements/backslash.md`
+- 詳細は[/Apps/Karabiner-Elements/backslash.md](/Apps/Karabiner-Elements/backslash.md)

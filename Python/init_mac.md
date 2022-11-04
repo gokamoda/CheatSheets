@@ -36,4 +36,4 @@ $ exec $SHELL
 
 ## 4. コードを書く
 - VSCodeで書く（おすすめ）
-- 詳しくは`/VSCode/python.md`
+- 詳しくは[/VSCode/python.md](/VSCode/python.md)

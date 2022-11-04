@@ -3,22 +3,34 @@
 - [2. CheatSheets](#2-cheatsheets)
 
 ## 1. 環境構築関連
+- VSCode
+  - [VSCodeおすすめ設定](VSCode/init.md)
 - Python環境
-  - windows -> [/Python/init_windows.md](/Python/init_windows.md)
-  - mac -> [/Python/init_mac.md](/Python/init_mac.md)
+  - [Windows](/Python/init_windows.md)
+  - [mac](/Python/init_mac.md)
+  - [WSL + Ubuntu](Python/init_wsl+ubuntu.md)
 - LaTeX環境
-  - CloudLatex + VSCode -> [/VSCode/latex.md](/VSCode/latex.md)
+  - [CloudLatex + VSCode](/VSCode/latex.md)
 - Markdown
-  - -> [/VSCode/markdown.md](/VSCode/markdown.md)
+  - [VSCode](/VSCode/markdown.md)
 - C/C++
-  - windows -> [/C/init_windows.md](/C/init_windows.md)
+  - [Windows](/C/init_windows.md)
+  - [WSL + Ubuntu](/C/init_wsl+ubuntu.md)
 
 ## 2. CheatSheets
-- Karbiner extensions
+- Karabiner
+  - [backslash](/Apps/Karabiner-Elements/backslash.md)
+  - [gyazo](/Apps/Karabiner-Elements/gyazo.md)
+- GAS
+  - [calendar](GAS/calendar.md)
+  - [onOpen](GAS/onOpen.md)
 - Latex
-  - math
-  - chemfig
+  - [連立](/LaTeX/img/simultaneous.md)
+  - [化学式](/LaTeX/chemfig.md)
 - Markdown
-  - Marp
+  - [Code Languages](Markdown/languages.md)
+  - [Marp](Markdown/marp.md)
+  - [Styles](Markdown/style.md)
+  - [Syntax](Markdown/syntax.md)
 - Python
-  - PyPDF2
+  - [PyPDF2](Python/PyPDF2.md)
