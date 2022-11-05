@@ -25,6 +25,7 @@
   - [calendar](GAS/calendar.md)
   - [onOpen](GAS/onOpen.md)
 - Latex
+  - [画像](/LaTeX/figures.md)
   - [連立](/LaTeX/img/simultaneous.md)
   - [化学式](/LaTeX/chemfig.md)
 - Markdown
