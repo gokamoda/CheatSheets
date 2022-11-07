@@ -3,8 +3,9 @@
 - [1. WSLを有効化](#1-wslを有効化)
 - [2. Ubuntsuのインストール](#2-ubuntsuのインストール)
 - [3. Ubuntuの導入](#3-ubuntuの導入)
-- [4. ターミナルの設定](#4-ターミナルの設定)
-- [5. VSCodeで使う](#5-vscodeで使う)
+- [4. Daily Notice のエラー](#4-daily-notice-のエラー)
+- [5. ターミナルの設定](#5-ターミナルの設定)
+- [6. VSCodeで使う](#6-vscodeで使う)
 
 ## 1. WSLを有効化
 1. PowerShellを管理者として実行し，次のコマンドを実行
@@ -50,12 +51,34 @@
    No VM guests are running outdated hypervisor (qemu) binaries on this host.
     ```
 
-## 4. ターミナルの設定
+## 4. Daily Notice のエラー
+
+
+エラー内容
+```bash
+/etc/update-motd.d/50-landscape-sysinfo: 17: cannot create /var/lib/landscape/landscape-sysinfo.cache: Permission denied
+```
+解決方法：[参考サイト](https://askubuntu.com/questions/1414483/landscape-sysinfo-cache-permission-denied-when-i-start-ubuntu-22-04-in-wsl)
+1. landscape-common(linux serverで使用されるがWSLでは使われないもの)を削除
+   ```bash
+   sudo apt remove landscape-common
+   ```
+2. その他使われていないパッケージの削除
+   ```bash
+   sudo apt autoremove
+   ```
+3. 不要ファイル削除
+   ```bash
+   rm ~/.motd_shown
+   ```
+
+
+## 5. ターミナルの設定
 1. ファイル/ディレクトリ名の自動補完で，大文字小文字を区別しないようにする  
    `.inputrc`ファイルを作成し，以下を追加
    ```
    set completion-ignore-case on
    ```
 
-## 5. VSCodeで使う
+## 6. VSCodeで使う
 - [/VSCode/wsl.md](/VSCode/wsl.md)にしたがって設定を行う
