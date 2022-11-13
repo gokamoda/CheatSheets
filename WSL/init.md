@@ -33,7 +33,7 @@
       sudo apt update
       sudo apt upgrade
       ```
-    ※次のような出力が得られることがあるが，気にしない．WSL2の使用の問題らしい．
+    ※次のような出力が得られることがあるが，気にしない．WSL2の仕様の問題らしい．
     ```bash
     Scanning linux images...
 
