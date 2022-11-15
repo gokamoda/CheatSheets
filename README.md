@@ -5,6 +5,7 @@
 ## 1. 環境構築関連
 - VSCode
   - [VSCodeおすすめ設定](VSCode/init.md)
+- [WSL](/WSL/init.md)
 - Python環境
   - [Windows](/Python/init_windows.md)
   - [mac](/Python/init_mac.md)
@@ -26,7 +27,7 @@
   - [onOpen](GAS/onOpen.md)
 - Latex
   - [画像](/LaTeX/figures.md)
-  - [連立](/LaTeX/img/simultaneous.md)
+  - [連立](/LaTeX/math_simultaneous.md)
   - [化学式](/LaTeX/chemfig.md)
 - Markdown
   - [Code Languages](Markdown/languages.md)
