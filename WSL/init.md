@@ -1,11 +1,16 @@
 # WSL+Ubuntu(2022.10.21)
 
 - [1. WSLを有効化](#1-wslを有効化)
-- [2. Ubuntsuのインストール](#2-ubuntsuのインストール)
-- [3. Ubuntuの導入](#3-ubuntuの導入)
-- [4. Daily Notice のエラー](#4-daily-notice-のエラー)
-- [5. ターミナルの設定](#5-ターミナルの設定)
-- [6. VSCodeで使う](#6-vscodeで使う)
+- [2. 仮想マシンプラットフォーム有効化](#2-仮想マシンプラットフォーム有効化)
+- [3. WSL2をデフォルトに設定](#3-wsl2をデフォルトに設定)
+- [4. WSLの更新](#4-wslの更新)
+- [5. Ubuntsuのインストール](#5-ubuntsuのインストール)
+- [6. windows terminalのインストール](#6-windows-terminalのインストール)
+- [7. Ubuntuの導入](#7-ubuntuの導入)
+- [8. Ubuntuの利用をはじめる](#8-ubuntuの利用をはじめる)
+- [9. Daily Notice のエラー (windows11)](#9-daily-notice-のエラー-windows11)
+- [10. ターミナルの設定](#10-ターミナルの設定)
+- [11. VSCodeで使う](#11-vscodeで使う)
 
 ## 1. WSLを有効化
 1. PowerShellを管理者として実行し，次のコマンドを実行
@@ -14,14 +19,43 @@
    ```
 2. 再起動
    
-## 2. Ubuntsuのインストール
+## 2. 仮想マシンプラットフォーム有効化
+1. PowerShellを管理者として実行し，次のコマンドを実行
+   ```PowerShell
+   Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+   ```
+2. 再起動
+
+## 3. WSL2をデフォルトに設定
+1. PowerShellを管理者として実行し，次のコマンドを実行
+   ```PowerShell
+   wsl --set-default-version 2
+   ```
+
+## 4. WSLの更新
+1. 引き続き管理者として実行したPowerShellで次のコマンドを実行
+   ```PowerShell
+   wsl --update
+   ```
+
+
+## 5. Ubuntsuのインストール
 1. Microsoft Storeで，Ubuntuを検索
 2. `Ubuntu 22.04.1 LTS`をインストール
 
-## 3. Ubuntuの導入
+## 6. windows terminalのインストール
+1. Microsoft StoreでWindows Terminalを検索
+2. `Windows Terminal`をインストール
+
+## 7. Ubuntuの導入
 1. インストールしたUbuntuを起動
-2. 言語やユーザー名，パスワード等を求められるので入力
-3. マウント先はいじらない
+2. 指示に従って初期設定を行う
+3. マウント先はいじらない（windows11）
+
+## 8. Ubuntuの利用をはじめる
+1. Windows Terminalを開く
+2. タブの右の`⋁`をクリック
+3. `Ubuntu 22.04.1 LTS`をクリック
 4. リポジトリ参照先の変更  
    Ubuntuのコンソールで以下を実行
       ```bash
@@ -33,7 +67,7 @@
       sudo apt update
       sudo apt upgrade
       ```
-    ※次のような出力が得られることがあるが，気にしない．WSL2の仕様の問題らしい．
+    ※次のような出力が得られることがあるが，気にしない．WSL2の仕様の問題らしい．(windows11)
     ```bash
     Scanning linux images...
 
@@ -51,9 +85,7 @@
    No VM guests are running outdated hypervisor (qemu) binaries on this host.
     ```
 
-## 4. Daily Notice のエラー
-
-
+## 9. Daily Notice のエラー (windows11)
 エラー内容
 ```bash
 /etc/update-motd.d/50-landscape-sysinfo: 17: cannot create /var/lib/landscape/landscape-sysinfo.cache: Permission denied
@@ -73,12 +105,12 @@
    ```
 
 
-## 5. ターミナルの設定
+## 10. ターミナルの設定
 1. ファイル/ディレクトリ名の自動補完で，大文字小文字を区別しないようにする  
    `.inputrc`ファイルを作成し，以下を追加
    ```
    set completion-ignore-case on
    ```
 
-## 6. VSCodeで使う
+## 11. VSCodeで使う
 - [/VSCode/wsl.md](/VSCode/wsl.md)にしたがって設定を行う

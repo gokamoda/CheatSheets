@@ -5,8 +5,11 @@
 - [3. 【Mac】codeコマンドのインストール](#3-maccodeコマンドのインストール)
 
 ## 1. インストール
-https://azure.microsoft.com/ja-jp/products/visual-studio-code/
-- コンテキストメニューへの追加はすべし
+1. PowerShellを開き，次のコマンドを実行
+  ```PowerShell
+  winget install vscode --override "/silent /mergetasks=""addcontextmenufiles,addcontextmenufolders"""
+  ```  
+
 ## 2. オートセーブ設定
 1. Ctrl + , で設定を開く
 2. 検索窓に`files.autosave`と入れる
