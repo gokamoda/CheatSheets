@@ -7,7 +7,6 @@
 
 ## 前提
 - [/WSL/init.md](/WSL/init.md)でUbuntuを導入済み
-- 
 
 ## 手順
 1. Povrayインストール
