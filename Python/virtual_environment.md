@@ -25,8 +25,12 @@
      `.venv`は仮想環境の名前．よく使われる
 
 6. 仮想環境アクティベート
-    ```Shell
-    . .venv/bin/activate
-    ```
-
+   1. linux
+        ```Shell
+        . .venv/bin/activate
+        ```
+    2. windows(コマンドプロンプト)
+        ```Shell
+        .venv\Scripts\activate.bat
+        ```
 ## conda create
