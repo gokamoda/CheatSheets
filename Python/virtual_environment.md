@@ -22,7 +22,8 @@
     ```Shell
     python -m venv .venv
     ```
-  `.venv`は仮想環境の名前．よく使われる
+     `.venv`は仮想環境の名前．よく使われる
+
 6. 仮想環境アクティベート
     ```Shell
     . .venv/bin/activate
