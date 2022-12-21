@@ -20,7 +20,7 @@
     ```
 5. 仮想環境構築
     ```Shell
-    pyenv -m venv .venv
+    python -m venv .venv
     ```
   `.venv`は仮想環境の名前．よく使われる
 6. 仮想環境アクティベート
