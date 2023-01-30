@@ -14,6 +14,9 @@
    ```bash
    sudo sh get-docker.sh
    ```
+   ```bash
+   sudo apt install docker-compose-plugin
+   ```
 3. 権限付与
    ```bash
    sudo groupadd docker
