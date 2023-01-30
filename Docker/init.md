@@ -21,6 +21,10 @@
    ```bash
    sudo usermod -aG docker $USER
    ```
+4. 起動確認
+   ```bash
+   sudo service docker start
+   ```
    ```bash
    docker run hello-world
    ```
